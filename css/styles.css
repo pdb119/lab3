@@ -5,3 +5,25 @@
 @import url(https://fonts.googleapis.com/css?family=Cantora+One);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
 
+body {
+	background-image:url(img/sandpaper.png);
+}
+.contentBox {
+	width:85%;
+	margin:20px auto;
+	background-color:#FFF;
+}
+header {
+	background-color:#907a46;
+	padding:6px;
+}
+header img {
+	float: right;
+}
+h1 {
+	font-family:'Cantora One', sans-serif;
+	font-size:50px;
+	color:#CCC;
+	line-height:94px;
+}
+
