@@ -6,24 +6,75 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300);
 
 body {
-	background-image:url(img/sandpaper.png);
+	background-image:url('../img/sandpaper.png');
+	font-family:'Open Sans', sans-serif;
+	font-size:16px;
 }
-.contentBox {
-	width:85%;
+
+article {
+	width:90%;
 	margin:20px auto;
 	background-color:#FFF;
 }
+
 header {
 	background-color:#907a46;
-	padding:6px;
+	padding:10px;
 }
+
 header img {
 	float: right;
+	opacity:0.7;
+	height: 60px;
+	
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	-ms-transition: all 0.2s ease;
+	transition: all 0.2s ease;   
+}
+
+header img:hover {
+	opacity:1.0;
 }
 h1 {
 	font-family:'Cantora One', sans-serif;
-	font-size:50px;
-	color:#CCC;
-	line-height:94px;
+	font-size:200%;
+	color:#EEEDEA;
+	line-height:60px;
+}
+
+figure {
+	padding: 10px;
+	background-color:#FFF;
+	display:inline-block;
+	
+	-webkit-transition: all 0.2s ease;
+	-moz-transition: all 0.2s ease;
+	-o-transition: all 0.2s ease;
+	-ms-transition: all 0.2s ease;
+	transition: all 0.2s ease;     
+}
+
+figure:hover {	
+	box-shadow: 2px 2px 6px #555;
+
+	-webkit-transform: scale(1.5);
+	-moz-transform: scale(1.5);
+	-o-transform: scale(1.5);
+	-ms-transform: scale(1.5);
+	transform: scale(1.5);
+}
+
+figure img {
+	width:200px;
+	border-radius:2px;
+	border: 10px solid #EEE;
+}
+
+figcaption {
+	font-weight:300;
+	text-align:center;
+	margin-top:5px;
 }
 
